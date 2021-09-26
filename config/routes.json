@@ -1,0 +1,8 @@
+{
+  "microservices": [
+    {
+      "name": "ms-a",
+      "authRequired": true
+    }
+  ]
+}
