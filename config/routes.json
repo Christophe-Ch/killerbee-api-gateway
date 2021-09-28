@@ -1,8 +1,16 @@
 {
   "microservices": [
     {
-      "name": "ms-a",
-      "authRequired": true
+      "name": "ms-ingredient",
+      "authRequired": false
+    },
+    {
+      "name": "ms-modele",
+      "authRequired": false
+    },
+    {
+      "name": "ms-procede",
+      "authRequired": false
     }
   ]
 }
