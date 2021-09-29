@@ -15,6 +15,10 @@
     {
       "name": "ms-auth",
       "authRequired": false
+    },
+    {
+      "name": "ms-auth",
+      "authRequired": false
     }
   ]
 }

@@ -30,7 +30,7 @@ module.exports = async (request) => {
 
   const axiosRequestConfig = {
     method: request.method,
-    url: `https:/${request.path}`,
+    url: `http:/${request.path}`,
   };
 
   if (request.method === "POST" || request.method === "PUT") {
@@ -43,6 +43,7 @@ module.exports = async (request) => {
       return response.data;
     })
     .catch((err) => {
+      console.log(err);
       const error = new Error(err.response.data);
       error.httpCode = err.response.status;
       throw error;
